@@ -1,0 +1,62 @@
+
+body{background: linear-gradient(to right,#b7f7d6, #50a3a2);
+overflow: hidden;
+margin: 0;
+height: 100vh} /* estilizando o fundo em degrade, limitando tamanho da página para acabar na imagem Grampola e tirando
+a barra de rolamento */
+
+ul {display: flex;   /* ul container flexivel */
+justify-content: center; /* centralizando horizontalmente os itens dentro do ul */
+list-style: none; /* tira os marcadores */
+align-items: center; /* centraliza os itens verticalmente dentro do ul */
+background: black; /* fundo do ul preto */
+height: 70px; /* altura 70 */
+padding: 0} /* sem preenchimento interno*/
+
+li{display:inline-block; /* blocos em linha do li */
+margin:60px} /* margem 60 criando espaçamento entre os itens */
+
+a {color:#ffffff; /* selecionando os elementos a dentro de li com a cor branca */
+text-decoration: none; /* tirando sublinhado */
+font-size: x-large; /* escolhendo tamanho da letra */
+}
+/* deixando minha imagem de perfil com bordas redondas */
+.imagemredonda{border-radius: 50%;
+    display: block;
+margin: auto;}
+/* definindo estilos para cada uma das figuras as quais adicionei IDs */
+#Grampola {margin: 0 auto; display: block; bottom:0;
+position: absolute; left: 45%; transform: translateX(-50%)}
+
+#ufpr{width: 13%; margin: 0;display: block;margin-left: 10%;position: relative;top: -500px}
+
+#uninter{width: 13%; margin: 0;display: block;margin-left: 10%;position: relative;top: -450px}
+
+#aranha{width: 13%; margin: 0;display: block;margin-right: 50%;position: relative;
+left:  1200px; top: -650px}
+
+#ceara{width: 25%; margin: 0;display: block;margin-right: 50%;position: relative;
+    left:  1100px; top: -500px}
+
+#cafe{width: 14%; margin: auto;display: block; margin-left: 10%;position: relative; bottom: 620px; 
+    transform: rotate(45deg)}
+
+#Cross {margin: auto; display: block;margin-left: 10%; position: relative;top: -300px}
+
+.texto1 {color:black, Verdana, Geneva, Tahoma, sans-serif; display:flex;justify-content: center;align-items: center;}
+
+.profissional{  /* estilizando a classe profissional */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center; /* centralizada verticalmente */
+}
+
+.profissional a {
+    margin: 10px; /* espaçamento*/
+}
+
+.profissional img {
+    max-width: 100px; /* Define o tamanho máximo para a largura */
+    max-height: 100px; /* Define o tamanho máximo para a altura */
+}
