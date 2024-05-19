@@ -26,7 +26,7 @@ font-size: x-large; /* escolhendo tamanho da letra */
 margin: auto;}
 /* definindo estilos para cada uma das figuras as quais adicionei IDs */
 #Grampola {margin: 0 auto; display: block; bottom:0;
-position: absolute; left: 45%; transform: translateX(-50%)}
+position: absolute; left: 50%; transform: translateX(-50%)}
 
 #ufpr{width: 13%; margin: 0;display: block;margin-left: 10%;position: relative;top: -500px}
 
@@ -38,7 +38,7 @@ left:  1200px; top: -650px}
 #ceara{width: 25%; margin: 0;display: block;margin-right: 50%;position: relative;
     left:  1100px; top: -500px}
 
-#cafe{width: 14%; margin: auto;display: block; margin-left: 10%;position: relative; bottom: 600px; 
+#cafe{width: 14%; margin: auto;display: block; margin-left: 10%;position: absolute; bottom: 0px; 
     transform: rotate(45deg)}
 
 #Cross {margin: auto; display: block;margin-left: 10%; position: relative;top: -300px}
