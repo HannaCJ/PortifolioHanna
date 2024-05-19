@@ -1,6 +1,6 @@
 
 body{background: linear-gradient(to right,#b7f7d6, #50a3a2);
-overflow: hidden;
+overflow: auto;
 margin: 0;
 height: 100vh} /* estilizando o fundo em degrade, limitando tamanho da página para acabar na imagem Grampola e tirando
 a barra de rolamento */
