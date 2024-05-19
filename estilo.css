@@ -55,6 +55,15 @@ left:  1200px; top: -650px}
 .profissional a {
     margin: 10px; /* espaçamento*/
 }
+    }
+
+.arrow img {
+        position: fixed;
+        top: 19px;
+        left: 7px;
+        width: 50px; /* Largura da imagem */
+        height: auto; /* Altura automática para manter a proporção */
+      }
 
 .profissional img {
     max-width: 100px; /* Define o tamanho máximo para a largura */
